@@ -2,6 +2,7 @@ KEITH A BRADY
 
 INFORMATION SECURITY SPECIALIST
 
+keithabrady*gmail*com
 
 &nbsp;
 
@@ -145,6 +146,3 @@ In progress. GPA - 3.8
 
 Available on request
 
-&nbsp;
-
-AVAILABLE ON REQUEST
