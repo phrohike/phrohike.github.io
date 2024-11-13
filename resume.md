@@ -2,7 +2,7 @@ KEITH A BRADY
 
 INFORMATION SECURITY SPECIALIST
 
-keithabrady*gmail*com
+keithabrady/gmail/com
 
 &nbsp;
 
