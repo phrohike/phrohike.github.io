@@ -9,8 +9,6 @@ INFORMATION SECURITY SPECIALIST
 
 **PROFESSIONAL SUMMARY**
 
-| &nbsp; | &nbsp; |
-| --- | --- |
 
 &nbsp;
 
@@ -20,8 +18,6 @@ Information Security Specialist with a passion for aligning security architectur
 
 **WORK HISTORY**
 
-| &nbsp; | &nbsp; |
-| --- | --- |
 
 &nbsp;
 
@@ -81,8 +77,6 @@ Aid in the planning, fabrication, and installation of audio/video/VTC equipment.
 
 **SKILLS**
 
-| &nbsp; | &nbsp; |
-| --- | --- |
 
 &nbsp;
 
@@ -103,9 +97,6 @@ Designing security controls
 &nbsp;
 
 **CERTIFICATIONS**
-
-| &nbsp; | &nbsp; |
-| --- | --- |
 
 &nbsp;
 
@@ -131,8 +122,6 @@ CompTIA Network+
 
 **EDUCATION**
 
-| &nbsp; | &nbsp; |
-| --- | --- |
 
 &nbsp;
 
@@ -154,8 +143,7 @@ In progress. GPA - 3.8
 
 **REFERENCES**
 
-| &nbsp; | &nbsp; |
-| --- | --- |
+Available on request
 
 &nbsp;
 
