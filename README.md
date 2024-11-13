@@ -1,7 +1,13 @@
-# Keith A Brady
+# Resume
 
-- Test
-- Test2
+[Resume](/resume.md)
 
-# Test 3 
+# Introduction
+
+
+
+
+# About Me
+
+
 
