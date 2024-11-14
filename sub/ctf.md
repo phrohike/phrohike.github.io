@@ -15,4 +15,4 @@ Team
 
 Individual 
 
-[NCL](/assets/NCLFallIND23.png)
+![NCL](/assets/NCLFallIND23.png)
