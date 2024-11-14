@@ -22,6 +22,8 @@ Please check out some of my projects and other areas of interest below.
 
 # Projects
 
-- [Cybersecurity](/cs.md) (Frameworks, Labs, Cyber Playbook, etc.)
-- [Coding](/coding.md) (Python, C++, Junyper, AI/LLM, Powershell, etc.)
-- [CTFs](/ctf.md) (NCL, TryHackMe, HackTheBox, VulnHub, etc.)
+|Category               | Description                               |
+|-----------------------|-------------------------------------------|
+|[Cybersecurity](/cs.md)|Frameworks, Labs, Cyber Playbook, etc.     |
+|[Coding](/coding.md)|Python, C++, Junyper, AI/LLM, Powershell, etc.|
+| [CTFs](/ctf.md)|NCL, TryHackMe, HackTheBox, VulnHub, etc.         |
