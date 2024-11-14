@@ -1,4 +1,4 @@
-Keith Brady's Cybersecurity Portfolio
+<!-- Keith Brady's Cybersecurity Portfolio -->
 
 # About Me
 
