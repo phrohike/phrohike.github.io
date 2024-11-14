@@ -1,6 +1,6 @@
 KEITH A BRADY
 
-INFORMATION SECURITY SPECIALIST
+INFORMATION SECURITY ANALYST
 
 keithabrady/gmail/com
 
@@ -10,15 +10,13 @@ keithabrady/gmail/com
 
 **PROFESSIONAL SUMMARY**
 
-
 &nbsp;
 
-Information Security Specialist with a passion for aligning security architecture plans and processes with security standards and business goals. Extensive experience developing and testing security frameworks for cloud-based software. Versed in robust network defense strategies. Results-driven IT professional with notable success in planning, analysis, and implementation of security initiatives. Certified in multiple security platforms.
+Information Security analyst with a passion for aligning security architecture plans and processes with security standards and business goals. Extensive experience developing and testing security frameworks for organizations. Versed in multiple frameworks, incident response, threat analysis and vulnerability management. Results-driven IT professional with notable success in planning, analysis, and implementation of security initiatives.
 
 &nbsp;
 
 **WORK HISTORY**
-
 
 &nbsp;
 
@@ -78,7 +76,6 @@ Aid in the planning, fabrication, and installation of audio/video/VTC equipment.
 
 **SKILLS**
 
-
 &nbsp;
 
 Risk management
@@ -123,12 +120,11 @@ CompTIA Network+
 
 **EDUCATION**
 
-
 &nbsp;
 
-**Bachelors of Science: Cybersecurity**
+**Bachelor of Science: Cybersecurity**
 
-**Southern New Hampshire University | Manchester, NH Anticipated: Apr 2025**
+**Southern New Hampshire University | Manchester, NH Anticipated: Jan 2025**
 
 &nbsp;
 
