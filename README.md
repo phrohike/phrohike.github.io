@@ -27,10 +27,10 @@ Please check out some of my projects and other areas of interest below.
 
 |Category               | Description                               |
 |-----------------------|-------------------------------------------|
-|[Cybersecurity](/cs.md)|Frameworks, Labs, Cyber Playbook, etc.     |
-|[Coding](/coding.md)|Python, C++, Junyper, AI/LLM, Powershell, etc.|
-|[CTFs](/ctf.md)|NCL, TryHackMe, HackTheBox, VulnHub, etc.          |
-|[Random](/random.md)| Different projects, hobbies, prototypes, etc.|
+|[Cybersecurity](/sub/cs.md)|Frameworks, Labs, Cyber Playbook, etc.     |
+|[Coding](/sub/coding.md)|Python, C++, Junyper, AI/LLM, Powershell, etc.|
+|[CTFs](/sub/ctf.md)|NCL, TryHackMe, HackTheBox, VulnHub, etc.          |
+|[Random](/sub/random.md)| Different projects, hobbies, prototypes, etc.|
 
 # Hobbies/Interests/Random
 
