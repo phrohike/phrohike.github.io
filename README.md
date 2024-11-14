@@ -10,6 +10,7 @@ Please check out some of my projects and other areas of interest below.
 [Resume](/resume.md)
 
 # Certifications
+&nbsp;
 ISC2 Certified in Cybersecurity (CC) 
 Google Cybersecurity Certificate
 AWS Certified Cloud Practitioner
@@ -18,7 +19,7 @@ IBM Generative AI for Cybersecurity Professionals
 IBM Generative AI for Data Analysts Specialization
 CompTIA Security+
 CompTIA Network+
-
+&nbsp;
 
 # Projects
 
