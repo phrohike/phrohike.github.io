@@ -1,7 +1,5 @@
----
-title: Keith Brady's Projects Portfolio 
----
-#
+hide: 
+  title: Keith Brady's Projects Portfolio
 
 # Resume
 
