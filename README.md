@@ -1,7 +1,3 @@
-hide: 
-  title: Keith Brady's Projects Portfolio
-
-
 
 # Introduction/About Me
 
