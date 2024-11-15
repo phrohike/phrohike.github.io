@@ -37,6 +37,6 @@ Please check out some of my projects and other areas of interest below.
 - Ham Radio (FT8, Packet, PSK31, APRS, HF, UHF, VHF, EME, Nets, Mesh)
 - Electronics (ESP, RaspPi, SBC, Arduino, Node, prototyping, soldering, SMC, RF)
 - Reading (SciFi, Cyberpunk, Biographies, Manuals (RTFM))
-- Biking
-- Fishing
-- Movies/TV
+- 3D Printing
+- Coding  
+
