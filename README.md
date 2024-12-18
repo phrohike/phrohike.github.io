@@ -8,6 +8,10 @@ Hello all! My name is Keith Brady, and I am an IT/Cybersecurity nerd with 20 yea
 
 Please check out some of my projects and other areas of interest below. 
 
+# Linkedin
+
+[Keith Brady Linkedin](https://www.linkedin.com/in/keithabrady/)
+
 # Resume
 
 [Resume](/resume.md)
