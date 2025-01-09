@@ -10,7 +10,8 @@ a:hover { color:#0080FF; }
 a { text-decoration: none; }
 /* Center Icons */
 .center { text-align: center; width: 100%; }
-body { background-color:#CECECE; padding:0;  margin: 0; }
+/* Make FA icons blue */
+.fa-blue {color: Darkblue;}body { background-color:#CECECE; padding:0;  margin: 0; }
 .textstyle1 { text-align:left; }
 #container_318d4fa8 { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:67px; background-color:#404040; position: fixed; z-index: 3000; }
 #container_318d4fa8_padding { margin: 10px; display: block;  }
