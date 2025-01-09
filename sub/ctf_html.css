@@ -1,0 +1,48 @@
+a { color:#FFFFFF; } 
+a:visited { color:#FFFFFF; } 
+a:active { color:#0080FF; } 
+a:hover { color:#0080FF; } 
+/* make the default for hyperlinks NO UNDERLINE */
+a { text-decoration: none; }
+/* Center Icons */
+.center { text-align: center; width: 100%; }body { background-color:#CECECE; padding:0;  margin: 0; }
+.textstyle1 { text-align:left; }
+#container_31a8e971 { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:67px; background-color:#404040; position: fixed; z-index: 3000; }
+#container_31a8e971_padding { margin: 10px; display: block;  }
+#container_154e3907 { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:40px; background:none;  }
+#container_154e3907_padding { margin: 10px; display: block;  }
+.textstyle2 { text-align:center; }
+#container_15da6879 { vertical-align: top; position:relative; display: inline-block; width:3%; min-height:40px; background:none;  }
+#container_15da6879_padding { margin: 10px; display: block;  }
+.textstyle3 { font-size:12pt; font-family:'Century Gothic', CenturyGothic, AppleGothic, sans-serif; color:#FFFFFF;  }
+#container_6d7884ee { vertical-align: top; position:relative; display: inline-block; width:3%; min-height:40px; background:none;  }
+#container_6d7884ee_padding { margin: 10px; display: block;  }
+#container_7d037229 { vertical-align: top; position:relative; display: inline-block; width:5%; min-height:40px; background:none;  }
+#container_7d037229_padding { margin: 10px; display: block;  }
+#container_32d0e03e { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:100px; background:none;  }
+#container_32d0e03e_padding { margin: 10px; display: block;  }
+#container_59b95f62 { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:80px; background:none;  }
+#container_59b95f62_padding { margin: 10px; display: block;  }
+.textstyle4 { font-size:40pt; font-family:Arial, Helvetica, sans-serif; color:#000000;  }
+#container_79d80445 { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:2525px; background:none;  }
+.textstyle5 { font-size:12pt; font-family:Arial, Helvetica, sans-serif; color:#000000;  }
+#container_d2a2f7b { vertical-align: top; border-radius: 15px; position:relative; display: inline-block; width:67%; min-height:2430px; background-color:#AFAFAF;  }
+#container_d2a2f7b_padding { margin: 10px; display: block;  }
+#container_159311cd { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:2402px; background:none;  }
+#container_159311cd_padding { margin: 10px; display: block;  }
+#container_2be7bc8d { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:47px; background:none;  }
+#container_2be7bc8d_padding { margin: 10px; display: block;  }
+#anchor_4cc3ae0c { vertical-align: bottom; position:relative; display: inline-block;  }
+.textstyle6 { font-size:20pt; font-family:Arial, Helvetica, sans-serif; color:#000000;  }
+#container_3fc821df { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:521px; background:none;  }
+#container_3fc821df_padding { margin: 10px; display: block;  }
+#img_6485017a { vertical-align: bottom; position:relative; display: inline-block; width:26%; background:none; height:auto;  }
+#img_a4a5bc0 { vertical-align: bottom; position:relative; display: inline-block; width:26%; background:none; height:auto;  }
+#img_45a28d37 { vertical-align: bottom; position:relative; display: inline-block; width:26%; background:none; height:auto;  }
+#container_57c4570b { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:52px; background:none;  }
+#container_57c4570b_padding { margin: 10px; display: block;  }
+#container_5545c291 { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:44px; background:none;  }
+#container_5545c291_padding { margin: 10px; display: block;  }
+#anchor_70a9d3b { vertical-align: bottom; position:relative; display: inline-block;  }
+#container_799ce7c0 { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:30px; background:none;  }
+#container_799ce7c0_padding { margin: 10px; display: block;  }
