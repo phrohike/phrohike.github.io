@@ -6,27 +6,29 @@ a:hover { color:#0080FF; }
 		a.wsp5e11d928:visited{ color:#000000; text-decoration: none} 
 		a.wsp5e11d928:active{ color:#0080FF; text-decoration: none} 
 		a.wsp5e11d928:hover{ color:#0080C0; text-decoration: none} 
+#table_5daec0eb th {  } 
+#table_5daec0eb td {  } 
 /* make the default for hyperlinks NO UNDERLINE */
 a { text-decoration: none; }
 /* Center Icons */
 .center { text-align: center; width: 100%; }body { background-color:#CECECE; padding:0;  margin: 0; }
 .textstyle1 { text-align:left; }
-#container_7635e4ac { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:67px; background-color:#404040; position: fixed; z-index: 3000; }
-#container_7635e4ac_padding { margin: 10px; display: block;  }
-#container_6f0ee363 { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:40px; background:none;  }
-#container_6f0ee363_padding { margin: 10px; display: block;  }
+#container_68bc0339 { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:66px; background-color:#404040; position: fixed; z-index: 3000; }
 .textstyle2 { text-align:center; }
-#container_b0df8f6 { vertical-align: top; position:relative; display: inline-block; width:3%; min-height:40px; background:none;  }
-#container_b0df8f6_padding { margin: 10px; display: block;  }
+#table_5daec0eb { vertical-align: bottom; position:relative; display: inline-table; width:22%; height:65px; background:none; table-layout: fixed;  }
+#cell_261211a2 {  }
 .textstyle3 { font-size:12pt; font-family:'Century Gothic', CenturyGothic, AppleGothic, sans-serif; color:#FFFFFF;  }
-.textstyle4 { font-size:12pt; font-family:Arial, Helvetica, sans-serif; color:#000000;  }
+#cell_42abcd13 {  }
+#cell_343b5305 {  }
+#cell_3336ab6d {  }
 #container_8a90a61 { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:100px; background:none;  }
 #container_8a90a61_padding { margin: 10px; display: block;  }
 #container_1590382d { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:150px; background:none;  }
 #container_1590382d_padding { margin: 10px; display: block;  }
-.textstyle5 { font-size:40pt; font-family:'Century Gothic', CenturyGothic, AppleGothic, sans-serif; color:#000000;  }
+.textstyle4 { font-size:40pt; font-family:'Century Gothic', CenturyGothic, AppleGothic, sans-serif; color:#000000;  }
 #container_1bb6b284 { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:2525px; background:none;  }
-#container_2823f0b8 { vertical-align: top; border-radius: 15px; position:relative; display: inline-block; width:67%; min-height:2430px; background-color:#AFAFAF;  }
+.textstyle5 { font-size:12pt; font-family:Arial, Helvetica, sans-serif; color:#000000;  }
+#container_2823f0b8 { vertical-align: top; border-radius: 15px; position:relative; display: inline-block; width:55%; min-height:2430px; background-color:#AFAFAF;  }
 #container_2823f0b8_padding { margin: 10px; display: block;  }
 #container_71037a78 { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:2402px; background:none;  }
 #container_71037a78_padding { margin: 10px; display: block;  }
