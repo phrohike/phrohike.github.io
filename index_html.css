@@ -87,22 +87,25 @@ a { text-decoration: none; }
 #container_12daa2b2_padding { margin: 10px; display: block;  }
 #table_554fe58f { box-sizing: border-box; vertical-align: bottom; position:relative; display: inline-table; width:100%; height:454px; background:none; border: 0px solid #E5E5E5; table-layout: fixed;  }
 #cell_203c19b5 {  }
-#container_74966c12 { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:150px; background:none;  }
+#container_638ba834 { box-sizing: border-box; vertical-align: top; border-radius: 15px; position:relative; display: inline-block; width:100%; min-height:204px; background-color:#CECECE; background: linear-gradient(to bottom, #7F7F7F, #CECECE); border: 1px solid #404040;  }
+#container_638ba834_padding { margin: 0px 10px 10px 10px;display: block;  }
+#container_74966c12 { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:172px; background:none;  }
 #container_74966c12_padding { margin: 10px; display: block;  }
+#img_55f61180 { vertical-align: bottom; position:relative; display: inline-block; width:38%; background:none; height:auto;  }
 #cell_514d2553 {  }
-#container_769eeeb7 { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:150px; background:none;  }
+#container_769eeeb7 { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:227px; background:none;  }
 #container_769eeeb7_padding { margin: 10px; display: block;  }
 #cell_1af30062 {  }
-#container_275fbf4a { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:150px; background:none;  }
+#container_275fbf4a { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:224px; background:none;  }
 #container_275fbf4a_padding { margin: 10px; display: block;  }
 #cell_29f96627 {  }
-#container_1f818d45 { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:150px; background:none;  }
+#container_1f818d45 { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:223px; background:none;  }
 #container_1f818d45_padding { margin: 10px; display: block;  }
 #cell_6ef42153 {  }
-#container_7cd148eb { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:150px; background:none;  }
+#container_7cd148eb { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:225px; background:none;  }
 #container_7cd148eb_padding { margin: 10px; display: block;  }
 #cell_6dc700a4 {  }
-#container_23114cfc { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:150px; background:none;  }
+#container_23114cfc { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:224px; background:none;  }
 #container_23114cfc_padding { margin: 10px; display: block;  }
 #container_12f25c71 { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:30px; background:none;  }
 #container_12f25c71_padding { margin: 10px; display: block;  }

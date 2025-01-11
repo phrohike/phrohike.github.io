@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="En"> 
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="generator" content="RocketCake">
+<script src="https://kit.fontawesome.com/00018f73bf.js" crossorigin="anonymous"></script>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="../../sub/risk/awshpdeploy_html.css?h=36c2b379">
+</head>
+<body>
+<div class="textstyle1">
+<div id="container_126cc6b5"><div class="textstyle2"><table id="table_32675b5d" cellpadding="0" cellspacing="0" >	<tr>
+		<td width="25%" height="61px" style="vertical-align: top; overflow:hidden; ">  <div id="cell_55235b83">
+    <div class="textstyle2">
+<span class="textstyle3"><br/></span><span class="textstyle3"><a href="../../index.html">Home</a></span>      </div>
+    </div>
+		</td>
+		<td width="25%" height="61px" style="vertical-align: top; overflow:hidden; ">  <div id="cell_4365d317">
+    <div class="textstyle2">
+<span class="textstyle3"><br/></span><span class="textstyle3"><a href="../../sub/resume.html">Resume</a></span>      </div>
+    </div>
+		</td>
+		<td width="25%" height="61px" style="vertical-align: top; overflow:hidden; ">  <div id="cell_23e78b93">
+    <div class="textstyle2">
+<span class="textstyle3"><br/></span><span class="textstyle3"><a href="../../index.html#projects">Skills/Projects</a></span>      </div>
+    </div>
+		</td>
+		<td width="25%" height="61px" style="vertical-align: top; overflow:hidden; ">  <div id="cell_114fb848">
+    <div class="textstyle2">
+<span class="textstyle3"><br/></span><span class="textstyle3"><a href="../../index.html#recent">Recent Posts</a></span>      </div>
+    </div>
+		</td>
+	</tr>
+</table></div>
+</div><div id="container_55674728"><div id="container_55674728_padding" ></div></div><div id="container_24c1a9be"><div id="container_24c1a9be_padding" ><div class="textstyle2">  <span class="textstyle4">AWS - Setup Honeypot For SIEM Analysis</span>
+</div>
+</div></div><div id="container_27fbeb1a"><div class="textstyle1"><span class="textstyle5"><br/><br/><br/><br/></span></div>
+<div class="textstyle2"><div id="container_4855a03"><div id="container_4855a03_padding" ><div class="textstyle1"><div id="container_1cad1a91"><div id="container_1cad1a91_padding" ><div class="textstyle2"><span class="textstyle6">AWS - Setup Honeypot For SIEM Analysis</span></div>
+<div class="textstyle1"><span class="textstyle7"><br/>Keith Brady 1/10/25<br/><br/></span></div>
+<div class="textstyle2"><img src="../../images/honeypot.png" width="640" height="640" id="img_608c5ba8" alt="" title="" /></div>
+<div class="textstyle1"><span class="textstyle7"><br/><br/><br/></span><span class="textstyle6">Goal</span><span class="textstyle7"><br/><br/>With my background in cybersecurity, I am continuously seeking opportunities to work with real-world threat data to enhance my analytical skills and experiment with emerging security tools. For this project, I have chosen to explore deception technology by deploying a honeypot  in AWS. A honeypot is a decoy system designed to attract adversaries, diverting them away from actual assets while gathering valuable threat intelligence. The data collected from these interactions can provide critical insights for improving detection capabilities, refining defense strategies, and staying ahead of evolving attack patterns.<br/><br/><br/></span><span class="textstyle6">What is a Honeypot?</span><span class="textstyle7"><br/><br/>A honeypot is a cybersecurity tool designed to act as a decoy system that attracts and detects potential attackers. It appears to be a legitimate part of the network but is actually an isolated system used to monitor, analyze, and learn about attack patterns and methods used by malicious actors.<br/><br/>Key characteristics of honeypots:<br/><br/></span><ul id="ul_53120e5a" class="ulstyle1">
+<li><span class="textstyle7">Simulates vulnerable systems to lure attackers</span></li>
+<li><span class="textstyle7">Monitors and logs all interaction attempts</span></li>
+<li><span class="textstyle7">Helps identify new attack vectors and threats</span></li>
+<li><span class="textstyle7">Provides valuable data for security analysis</span></li>
+</ul>
+<span class="textstyle7"><br/><br/></span><span class="textstyle6">Why Deploy a Honeypot on AWS?</span><span class="textstyle7"><br/><br/>Deploying a honeypot on AWS offers several advantages:<br/><br/></span><ul id="ul_4a6b2af2" class="ulstyle1">
+<li><span class="textstyle7">Can be placed within your organizations internal/external/DMZ networks to monitor suspicious activity</span></li>
+<li><span class="textstyle7">Scalability: AWS provides flexible resources to scale your honeypot based on monitoring needs</span></li>
+<li><span class="textstyle7">Cost-effective: Pay only for the resources you use during the deployment</span></li>
+<li><span class="textstyle7">Isolation: Easy to isolate the honeypot from your production environment for safety</span></li>
+<li><span class="textstyle7">Global reach: AWS's worldwide infrastructure allows you to detect threats from different geographic locations</span></li>
+<li><span class="textstyle7">Integration: Seamlessly connects with other AWS security services and logging tools</span></li>
+</ul>
+<span class="textstyle7"><br/></span><span class="textstyle6">Type of Honey Pot</span><span class="textstyle7"><br/><br/>We are going to use a medium interaction honeypot, Cowrie. This type of honeypot will emulate a set of servies and protocols (SSH and Telnet) to capture mallicous traffic and actions. Cowrie is also less resource intense than other types of high interaction honeypots that are available. <br/><br/></span><span class="textstyle8">The Build</span><span class="textstyle9"> <br/></span><span class="textstyle7"><br/>1. Log into AWS Console and create a new instance. <br/><br/></span><ul id="ul_3198ceaa" class="ulstyle1">
+<li><span class="textstyle7">Create new t2micro (free) instance with 16GB of storage. </span></li>
+</ul>
+<span class="textstyle7"> <br/></span><img src="../../images/2025_01_11_15_47_59_1200x823.png" width="1200" height="823" id="img_50fe4c2d" alt="" title="" /><span class="textstyle7"><br/> </span><ul id="ul_7a1f4ea1" class="ulstyle1">
+<li><span class="textstyle7">Allow SSH from everywhere. We will later change our SSH from 22 to 8022 for access and keep the standard port open from maicious traffic. </span></li>
+</ul>
+<span class="textstyle7"> <br/></span><img src="../../images/2025_01_11_15_53_01_1200x517.png" width="1200" height="517" id="img_177c2b57" alt="" title="" /><span class="textstyle7"><br/> </span><ul id="ul_824b883" class="ulstyle1">
+<li><span class="textstyle7">Create a new Key Pair for our access. Save the .pem file to your local machine or somewhere easy for you to access. </span></li>
+</ul>
+<span class="textstyle7"><br/></span><ul id="ul_1354b0f" class="ulstyle1">
+<li><span class="textstyle7">Modify the security group inboundn rules to allow access to port 8022 only from your home (8022 is a common alternative from standard ports). </span></li>
+</ul>
+<span class="textstyle7"><br/></span><img src="../../images/2025_01_11_16_27_26_1200x401.png" width="1200" height="401" id="img_69563e92" alt="" title="" /><span class="textstyle7"><br/><br/>2. Connect to instance using SSH, install dependancies, modify default SSH listen port (22&lt;--&gt;8022) and install Cowrie honeypot. <br/><br/></span><ul id="ul_76461fe4" class="ulstyle1">
+<li><span class="textstyle7">Use your distro of choice to download the .pem file created for the Cowrie instance, chmod 400 the file and connect to the instance on AWS. </span></li>
+</ul>
+<span class="textstyle7"><br/></span><img src="../../images/2025_01_11_16_01_31.png" width="1468" height="944" id="img_67f07d53" alt="" title="" /><span class="textstyle7"><br/> </span><ul id="ul_3d8ccbb7" class="ulstyle1">
+<li><span class="textstyle7">Once connected, run the following for updates and dependancies: </span></li>
+</ul>
+<span class="textstyle7"> <br/></span><div id="container_18a61349"><div id="container_18a61349_padding" ><div class="textstyle1">  <span class="textstyle5">sudo apt-get update &amp;&amp; sudo apt-get upgrade -y<br/>sudo apt-get install lnav git python3-virtualenv libssl-dev libffi-dev build-essential libpython3-dev authbind -y<br/></span>
+</div>
+</div></div><span class="textstyle7"><br/><br/></span><ul id="ul_15f29634" class="ulstyle1">
+<li><span class="textstyle7">Change the SSH daemon default port to 8022 in /etc/ssh/sshd_config. This will allow us to connect to the real SSH server and keep the fake Cowrie port 22 service open for attackers. </span></li>
+</ul>
+<span class="textstyle7"> <br/></span><img src="../../images/2025_01_11_16_23_20.png" width="994" height="937" id="img_6a10eded" alt="" title="" /><span class="textstyle7"><br/><br/> <br/></span><ul id="ul_19e12fcd" class="ulstyle1">
+<li><span class="textstyle7">Now, restart ssh daemon for it to take effect.</span></li>
+</ul>
+<span class="textstyle7"><br/></span><div id="container_25b8112d"><div id="container_25b8112d_padding" ><div class="textstyle1">  <span class="textstyle5">sudo systemctl restart ssh<br/></span>
+</div>
+</div></div><span class="textstyle7"><br/><br/></span><ul id="ul_19c09732" class="ulstyle1">
+<li><span class="textstyle7">Reconnect back to the Cowrie instance using SSH via the new port 8022 using the -p flag.</span></li>
+</ul>
+<span class="textstyle7"><br/> </span><img src="../../images/2025_01_11_16_29_02.png" width="1469" height="553" id="img_31fc9f08" alt="" title="" /><span class="textstyle7"><br/> <br/><br/>3. Install Cowrie. <br/><br/></span><ul id="ul_75846dd1" class="ulstyle1">
+<li><span class="textstyle7">Create new user for Cowrie services and then su into that user. </span></li>
+</ul>
+<span class="textstyle7"><br/></span><img src="../../images/image_001.png" width="1040" height="759" id="img_3771cb8a" alt="" title="" /><span class="textstyle7"><br/><br/></span><ul id="ul_7e61b60e" class="ulstyle1">
+<li><span class="textstyle7">Clone the Cowrie repo and create a new python virtualenv.  </span></li>
+</ul>
+<span class="textstyle7"><br/></span><img src="../../images/image_002.png" width="1508" height="707" id="img_67367245" alt="" title="" /><span class="textstyle7"><br/><br/></span><ul id="ul_21c829b0" class="ulstyle1">
+<li><span class="textstyle7">Upgrade pip and install repo using requirements.txt. </span></li>
+</ul>
+<span class="textstyle7"><br/></span><img src="../../images/image_003.png" width="1500" height="949" id="img_11dc96e6" alt="" title="" /><span class="textstyle7"><br/><br/></span><ul id="ul_6e2710f5" class="ulstyle1">
+<li><span class="textstyle7">Change the Cowrie hostname to something different (so attackers dont easily know its a Cowrie instance). Then exit the virtualenv.</span></li>
+</ul>
+<span class="textstyle7"><br/></span><img src="../../images/image_0001.png" width="1467" height="934" id="img_42787e73" alt="" title="" /><span class="textstyle7"><br/><br/></span><ul id="ul_5daec0eb" class="ulstyle1">
+<li><span class="textstyle7">Modify the iptables routing for port 22 to 2222 (SSH) and port 23 to 2223 to be logged by Cowrie. </span></li>
+</ul>
+<span class="textstyle7"><br/></span><img src="../../images/image_001_1736635429.png" width="1468" height="294" id="img_190c23ae" alt="" title="" /><span class="textstyle7"><br/><br/></span><ul id="ul_22220890" class="ulstyle1">
+<li><span class="textstyle7">Now we run cowerie and wait....</span></li>
+</ul>
+<span class="textstyle7"><br/></span><img src="../../images/image_001_1736636647.png" width="1476" height="776" id="img_d10bbcd" alt="" title="" /><span class="textstyle7"><br/><br/>Check that Cowrie is running and that logs are generating hits/attacks. <br/><br/></span><img src="../../images/image_001_1736638643.png" width="1494" height="957" id="img_9663379" alt="" title="" /><span class="textstyle7"><br/><br/><br/>4. Run instance for sometime to gather attack metrics. Once metrics are gathered, will will use Splunk and some other tools to analyze what we found/caught. <br/><br/></span><img src="../../images/hackerfishing.png" width="1024" height="1024" id="img_5e5c8731" alt="" title="" /><span class="textstyle7"><br/><br/><br/><br/><br/>Links to resources - <br/><br/></span><span class="textstyle7"><a href="https://en.wikipedia.org/wiki/Honeypot_(computing)" target="_blank">Honeypot (computing)</a></span><span class="textstyle7"><br/><br/></span><span class="textstyle7"><a href="https://aws.amazon.com/blogs/security/how-to-detect-suspicious-activity-in-your-aws-account-by-using-private-decoy-resources/" target="_blank">How to detect suspicious activity in your AWS account by using private decoy resources</a></span><span class="textstyle7"><br/><br/></span><span class="textstyle7"><a href="https://github.com/cowrie/cowrie" target="_blank">Cowrie Honeypot GitHub</a></span><span class="textstyle7"><br/></span><span class="textstyle5"><br/></span><span class="textstyle7"><br/></span></div>
+<div style="clear:both"></div></div></div></div>
+<div style="clear:both"></div></div></div></div>
+<div class="textstyle1"><span class="textstyle5"><br/><br/></span><div id="container_46613699"><div id="container_46613699_padding" ><div class="textstyle2">  <span class="textstyle5">&#169; phrohike.github.io. All rights reserved.</span>
+</div>
+</div></div><span class="textstyle5"><br/><br/></span></div>
+</div>  </div>
+</body>
+</html>
