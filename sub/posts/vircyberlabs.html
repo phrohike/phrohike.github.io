@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="En"> 
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="generator" content="RocketCake">
+<script src="https://kit.fontawesome.com/00018f73bf.js" crossorigin="anonymous"></script>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="../../sub/posts/vircyberlabs_html.css?h=ddd164f7">
+</head>
+<body>
+<div class="textstyle1">
+<div id="container_1669005b"><div class="textstyle2"><table id="table_2a6791f0" cellpadding="0" cellspacing="0" >	<tr>
+		<td width="25%" height="61px" style="vertical-align: top; overflow:hidden; ">  <div id="cell_56fc7028">
+    <div class="textstyle2">
+<span class="textstyle3"><br/></span><span class="textstyle3"><a href="../../index.html">Home</a></span>      </div>
+    </div>
+		</td>
+		<td width="25%" height="61px" style="vertical-align: top; overflow:hidden; ">  <div id="cell_21c85519">
+    <div class="textstyle2">
+<span class="textstyle3"><br/></span><span class="textstyle3"><a href="../../sub/resume.html">Resume</a></span>      </div>
+    </div>
+		</td>
+		<td width="25%" height="61px" style="vertical-align: top; overflow:hidden; ">  <div id="cell_4fa18e1">
+    <div class="textstyle2">
+<span class="textstyle3"><br/></span><span class="textstyle3"><a href="../../index.html#projects">Skills/Projects</a></span>      </div>
+    </div>
+		</td>
+		<td width="25%" height="61px" style="vertical-align: top; overflow:hidden; ">  <div id="cell_4cdd36f7">
+    <div class="textstyle2">
+<span class="textstyle3"><br/></span><span class="textstyle3"><a href="../../index.html#recent">Recent Posts</a></span>      </div>
+    </div>
+		</td>
+	</tr>
+</table></div>
+</div><div id="container_31e9306d"><div id="container_31e9306d_padding" ></div></div><div id="container_7a495f19"><div id="container_7a495f19_padding" ><div class="textstyle2">  <span class="textstyle4">My Virtual Home Lab</span>
+</div>
+</div></div><div id="container_177c12a2"><div class="textstyle1"><span class="textstyle5"><br/><br/><br/><br/></span></div>
+<div class="textstyle2"><div id="container_6d176d02"><div id="container_6d176d02_padding" ><div class="textstyle1"><div id="container_701ee5a0"><div id="container_701ee5a0_padding" ><div class="textstyle2"><span class="textstyle6">My Virtual Home Lab</span></div>
+<div class="textstyle1"><span class="textstyle7">Keith Brady 1/12/25<br/><br/></span></div>
+<div class="textstyle2"><img src="../../images/hacksnreens.png" width="1024" height="1024" id="img_6d7f694e" alt="" title="" /></div>
+<div class="textstyle1"><span class="textstyle7"><br/><br/></span><span class="textstyle6">Goal</span><span class="textstyle7"><br/><br/>I built a home cybersecurity lab to provide myself an invaluable hands-on learning environment to practice offensive and defensive security skills in a controlled setting. The hardware is a mini pc with an Intel i5 CPU, 32GB RAM, 120GB SSD, fine for virtuallization. By leveraging Proxmox, I was able to create isolated virtual machines (VMs) for experimentation without breaking the bank or using up too many resources running multiple VMs on my primary machine. Proxmox&#8217;s efficient resource allocation and snapshot features allow me to deploy and reset VMs/environments easily, making it ideal for simulating cyberattacks, testing detection mechanisms, and recovering from simulated incidents. This setup also helps me practice system hardening and improve your proficiency in managing virtualized infrastructures, similar to real-world cloud or on-premises environments.<br/><br/></span><span class="textstyle6">Key Applications and Their Use Cases </span><span class="textstyle7"><br/><br/>To sharpen my offensive security skills, I use tools like Kali Linux and Metasploitable (and others) for penetration testing and vulnerability exploitation. VulnHub, Damn Vulnerable Web App (DVWA), and Buggy Web App provide deliberately vulnerable systems for practicing web application attacks, such as SQL injection, cross-site scripting (XSS), and privilege escalation. These resources help me in building expertise in identifying weaknesses in applications and systems. <br/><br/>On the defensive side, I use Wazuh, Security Onion, and Nessus for threat detection and vulnerability management. Wazuh acts as a SIEM (Security Information and Event Management) platform for log analysis and alerting, while Security Onion provides an integrated environment for network traffic analysis and intrusion detection. Nessus complements this by performing in-depth vulnerability scans, helping me understand security flaws and how to prioritize mitigation efforts.<br/><br/></span><span class="textstyle6">Advancing Incident Response and Threat Hunting Skills</span><span class="textstyle7"><br/><br/>To help me develop better threat intelligence and incident response skills, I use tools like TheHive and Cortex. TheHive serves as a collaborative incident response platform, allowing you to organize investigation workflows and document findings. Cortex enhances incident response by automating enrichment processes, such as gathering threat intelligence from external sources. Additionally, CALDERA, an adversary emulation platform, enables you to simulate advanced persistent threats (APTs) and assess your ability to detect and respond to sophisticated attack scenarios. By combining these tools, you can practice conducting threat hunts, creating correlation rules, and refining response strategies. Ultimately, this lab will serve as a comprehensive environment where you can build and reinforce cybersecurity expertise across offensive, defensive, and investigative domains.<br/><br/></span><span class="textstyle6">Notes About Setup</span><span class="textstyle7"><br/><br/></span><ul id="ul_13002dc2" class="ulstyle1">
+<li><span class="textstyle7">I have a Pfsense firewall running in a VM to manage the DHCP, CIDR, NAT translation, tunneling, VLANs, etc. The Promox device is connecting to my primary home network but is isolated and nothing is granted outside access unless it is manually turned on for updates or specifc scenarios.</span></li>
+<li><span class="textstyle7">The machine is not very powerful so I have to ramp up specific VMs or services/platforms based on the scenario I am running.</span></li>
+<li><span class="textstyle7">I primarily use Puppet to maintain instances. </span></li>
+<li><span class="textstyle7">This setup is never final and will be changed, modified, upgraded to further develop my skills by using different VMs, platform, services, configurations. </span></li>
+<li><span class="textstyle7">Its also free! :)</span></li>
+</ul>
+<span class="textstyle7"><br/></span><span class="textstyle6">VM/Network Overview</span><span class="textstyle7"><br/><br/></span></div>
+<div class="textstyle2"><img src="../../images/promox_cyber_lab_network_diagram_1200x638.png" width="1200" height="638" id="img_1ee20c64" alt="" title="" /></div>
+<div class="textstyle1"><span class="textstyle5"><br/><br/></span><span class="textstyle8">Current Setup </span><span class="textstyle5"><br/><br/></span><span class="textstyle8">Pentest VMs/SIEMs/Vuln Scanners/Network Monitoring/Etc.</span><span class="textstyle5"><br/><br/></span><ul id="ul_75c970f0" class="ulstyle1">
+<li><span class="textstyle5">Kali Linux</span></li>
+<li><span class="textstyle5">Kali Purple (for testing)</span></li>
+<li><span class="textstyle5">Caldera (MITRE)</span></li>
+<li><span class="textstyle5">Wazuh</span></li>
+<li><span class="textstyle5">Nessus</span></li>
+<li><span class="textstyle5">Security Onion</span></li>
+<li><span class="textstyle5">TheHive</span></li>
+<li><span class="textstyle5">Cortex XDR</span></li>
+</ul>
+<span class="textstyle5"><br/></span><span class="textstyle8">Vuln Boxes/Standard OSes (and modified instances)/Services/Platforms</span><span class="textstyle5"><br/><br/></span><ul id="ul_5c4352dd" class="ulstyle1">
+<li><span class="textstyle5">Metasploitable</span></li>
+<li><span class="textstyle5">Buggy Web App</span></li>
+<li><span class="textstyle5">VulnHub</span></li>
+<li><span class="textstyle5">Damn Vulnerable Web App</span></li>
+<li><span class="textstyle5">Windows Server 2019 w/ AD </span></li>
+<li><span class="textstyle5">Windows 11</span></li>
+<li><span class="textstyle5">Windows 10</span></li>
+<li><span class="textstyle5">Ubuntu </span></li>
+<li><span class="textstyle5">Docker</span></li>
+<li><span class="textstyle5">Kubernetes (K8s)</span></li>
+<li><span class="textstyle5">Portainer.io</span></li>
+<li><span class="textstyle5">Puppet</span></li>
+</ul>
+<span class="textstyle5"><br/></span><span class="textstyle8">Future VMs/Platforms/Services (for now...)</span><span class="textstyle5"><br/><br/></span><ul id="ul_514d2553" class="ulstyle1">
+<li><span class="textstyle5">Physuical network expansion for aditional machines</span></li>
+<li><span class="textstyle5">IoT</span></li>
+<li><span class="textstyle5">Splunk</span></li>
+<li><span class="textstyle5">Bunker</span></li>
+<li><span class="textstyle5">Snort</span></li>
+<li><span class="textstyle5">RF tools (SDR, Frequency Analysis, BLE attacks, Wifi, Etc). </span></li>
+<li><span class="textstyle5">...</span></li>
+</ul>
+<span class="textstyle5"><br/><br/></span></div>
+<div style="clear:both"></div></div></div></div>
+<div style="clear:both"></div></div></div></div>
+<div class="textstyle1"><span class="textstyle5"><br/><br/></span><div id="container_76cb1e62"><div id="container_76cb1e62_padding" ><div class="textstyle2">  <span class="textstyle5">&#169; phrohike.github.io. All rights reserved.</span>
+</div>
+</div></div><span class="textstyle5"><br/><br/></span></div>
+</div>  </div>
+</body>
+</html>
