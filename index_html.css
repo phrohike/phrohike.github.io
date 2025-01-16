@@ -101,7 +101,11 @@ a { text-decoration: none; }
 #img_704a032b { vertical-align: bottom; position:relative; display: inline-block; width:41%; background:none; height:auto;  }
 #cell_1af30062 {  }
 #container_275fbf4a { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:224px; background:none;  }
-#container_275fbf4a_padding { margin: 10px; display: block;  }
+#container_441f2eaa { box-sizing: border-box; vertical-align: top; border-radius: 15px; position:relative; display: inline-block; width:100%; min-height:200px; background-color:#CECECE; background: linear-gradient(to bottom, #7F7F7F, #CECECE); border: 1px solid #404040;  }
+#container_441f2eaa_padding { margin: 10px; display: block;  }
+#container_2cd7ade0 { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:185px; background:none;  }
+#container_2cd7ade0_padding { margin: 10px; display: block;  }
+#img_38dc0f93 { vertical-align: bottom; position:relative; display: inline-block; width:62%; background:none; height:auto;  }
 #cell_29f96627 {  }
 #container_1f818d45 { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:223px; background:none;  }
 #container_1f818d45_padding { margin: 10px; display: block;  }

@@ -51,8 +51,11 @@ a { text-decoration: none; }
 #container_bf93e17_padding { margin: 10px; display: block;  }
 #img_3defd5da { vertical-align: bottom; position:relative; display: inline-block; width:41%; background:none; height:auto;  }
 #cell_5a461f47 {  }
-#container_5290aaf6 { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:224px; background:none;  }
+#container_5290aaf6 { box-sizing: border-box; vertical-align: top; border-radius: 15px; position:relative; display: inline-block; width:100%; min-height:200px; background-color:#CECECE; background: linear-gradient(to bottom, #7F7F7F, #CECECE); border: 1px solid #404040;  }
 #container_5290aaf6_padding { margin: 10px; display: block;  }
+#container_65c1df42 { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:185px; background:none;  }
+#container_65c1df42_padding { margin: 10px; display: block;  }
+#img_73dbe1f0 { vertical-align: bottom; position:relative; display: inline-block; width:62%; background:none; height:auto;  }
 #cell_7874209d {  }
 #container_7b617898 { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:200px; background:none;  }
 #container_7b617898_padding { margin: 10px; display: block;  }
